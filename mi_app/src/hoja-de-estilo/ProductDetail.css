@@ -1,0 +1,89 @@
+/* Estilo del contenedor general. */
+.bg-body-tertiary{
+    width:auto;
+    height:auto;
+}
+.container-tienda{
+  align-content:auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.container-tienda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Ajusta según tus preferencias */
+}
+
+
+/* Estilo básico para la barra de navegación */
+.navbar {
+  background-color: #333; /* Puedes ajustar el color según tus preferencias */
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+}
+
+/* Hacer la barra de navegación fija en la parte superior */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que la barra de navegación esté en la capa superior */
+  margin-left: 5px;
+}
+
+ /* styles.css */
+.fixed-size-image {
+  width: 200px; /* Ajusta según sea necesario */
+  height: 200px; /* Ajusta según sea necesario */
+  display: block;
+  margin: 0;
+
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.App{
+  align-content:auto;
+display: flex;
+flex-wrap: wrap;
+display: flex;
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
+
+}
+
+.nav{
+  align-content:1000px;
+  display: inline;
+}
+.card{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-block: 5px;
+
+}
+/* Estilo básico para la barra de navegación */
+.navbar {
+  background-color: #333; /* Puedes ajustar el color según tus preferencias */
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+}
+
+/* Hacer la barra de navegación fija en la parte superior */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que la barra de navegación esté en la capa superior */
+  margin-left: 5px;
+}
+
